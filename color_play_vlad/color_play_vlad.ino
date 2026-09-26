@@ -3,6 +3,8 @@ int GREEN_VLAD = 3;
 int RED_1_WILLARD = 4;
 int RED_2_XERXES = 5;
 
+int DELAY = 123;
+
 void setup() {
   // put your setup code here, to run once:
   pinMode(GREEN_VLAD, OUTPUT);
@@ -13,17 +15,17 @@ void setup() {
 void loop() {
  
    digitalWrite(GREEN_VLAD,HIGH);
-   delay(100); 
+   delay(DELAY); 
    digitalWrite(GREEN_VLAD,LOW);
-   delay(100); 
+   delay(DELAY); 
 
    digitalWrite(RED_1_WILLARD,HIGH);
-   delay(100); 
+   delay(DELAY); 
    digitalWrite(RED_1_WILLARD,LOW);
-   delay(100); 
+   delay(DELAY); 
 
    digitalWrite(RED_2_XERXES,HIGH);
-   delay(100); 
+   delay(DELAY); 
    digitalWrite(RED_2_XERXES,LOW);
-   delay(100); 
+   delay(DELAY); 
 }
