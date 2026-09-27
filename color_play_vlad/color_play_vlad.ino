@@ -20,8 +20,6 @@ void setup() {
   pinMode(RED_2_XERXES, OUTPUT);
   pinMode(BUTTON_PIN, INPUT);
 
-  papaServo.attach(SERVO_PIN_PAPA);
-
 }
 
 void loop() {
